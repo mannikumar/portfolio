@@ -79,10 +79,10 @@
         <div class="menu_list">
           <ul class="transition_link">
             <li class="active"><a href="#home">Home</a></li>
-     <li><a href="#about">About</a></li>
-              <li><a href="#publications">Publications</a></li>
-              <li><a href="#patents">Patents</a></li>
-              <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#patents">Patents</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -124,10 +124,7 @@
                 <div class="home_content">
                   <div class="avatar" data-type="wave">
                     <!-- data-type values are: "wave", "circle", "square"-->
-                    <div
-                      class="image"
-                      data-img-url="https://haxworld.net/manni/Manni-Kumar.jpg"
-                    ></div>
+                    <div class="image" data-img-url="/Manni-Kumar.jpg"></div>
                   </div>
                   <div class="details">
                     <h3 class="name">MANNI <span>KUMAR</span></h3>
@@ -161,6 +158,12 @@
                   <span>Download CV</span>
                 </a>
               </div>
+              <div class="tokyo_tm_button next_page" data-position="left">
+                <a onclick="aboutPage()">
+                  <i class="icon-down"></i>
+                  <span>Next Page</span>
+                </a>
+              </div>
             </div>
           </div>
           <!-- /HOME -->
@@ -178,7 +181,7 @@
                   </div>
                 </div>
                 <div class="top_author_image">
-                  <img src="https://haxworld.net/manni/Manni-Kumar1.jpg" alt="" />
+                  <img src="/Manni-Kumar1.jpg" alt="" />
                 </div>
                 <div class="about_title">
                   <h3>MANNI KUMAR</h3>
@@ -249,7 +252,7 @@
                 </div>
               </div>
             </div>
-           
+
             <div class="tokyo_tm_resumebox">
               <div class="container">
                 <div class="in">
@@ -647,6 +650,16 @@
                 </div>
               </div>
             </div>
+            <div class="tokyo_tm_button next_page1" data-position="left">
+              <a onclick="homePage()">
+                <i class="icon-up"></i>
+                <span>Prev Page</span>
+              </a>
+              <a onclick="publicationPage()">
+                <i class="icon-down"></i>
+                <span>Next Page</span>
+              </a>
+            </div>
           </div>
           <!-- /ABOUT -->
 
@@ -939,6 +952,16 @@
               </div>
             </div>
             <!-- test -->
+            <div class="tokyo_tm_button next_page1" data-position="left">
+              <a onclick="aboutPage()">
+                <i class="icon-up"></i>
+                <span>Prev Page</span>
+              </a>
+              <a onclick="patentsPage()">
+                <i class="icon-down"></i>
+                <span>Next Page</span>
+              </a>
+            </div>
           </div>
           <!-- /SERVICE -->
 
@@ -1007,6 +1030,16 @@
                 </div>
               </div>
             </div>
+            <div class="tokyo_tm_button next_page1" data-position="left">
+              <a onclick="publicationPage()">
+                <i class="icon-up"></i>
+                <span>Prev Page</span>
+              </a>
+              <a onclick="contactPage()">
+                <i class="icon-down"></i>
+                <span>Next Page</span>
+              </a>
+            </div>
           </div>
           <!-- /PORTFOLIO -->
 
@@ -1056,7 +1089,14 @@
                 </div>
               </div>
             </div>
+            <div class="tokyo_tm_button next_page1" data-position="left">
+              <a onclick="patentsPage()">
+                <i class="icon-up"></i>
+                <span>Prev Page</span>
+              </a>
+            </div>
           </div>
+
           <!-- /CONTACT -->
         </div>
       </div>
