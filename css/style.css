@@ -2394,6 +2394,22 @@ table {
 	bottom:0;
 	justify-content: end;
   }
+  /* naman css */
+  .next_page{
+	display: flex;
+	position: absolute;
+	right:0;
+	bottom:0;
+	justify-content: start;
+  }
+  /* naman css */
+  .next_page1{
+	display: flex;
+	position: sticky;
+	right:0;
+	bottom:0;
+	justify-content: space-between;
+  }
 
   .list_bullet > .container > .in > .tokyo_section_title> .tokyo_tm_skill_list > .tokyo_section_title > ul > li {
 	/* display: none; */
